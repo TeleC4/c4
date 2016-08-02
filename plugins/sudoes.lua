@@ -1,7 +1,3 @@
-Skip to content
-  Switch to mobile version
-This repository
-Pull requests
 
 local function set_bot_photo(msg, success, result)
   local receiver = get_receiver(msg)
