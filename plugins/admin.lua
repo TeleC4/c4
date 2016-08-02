@@ -263,11 +263,8 @@ end
       		print(k, v.." Globally banned")
     	end
     end
-	if matches[1] == 'refresh' then
-		receiver = get_receiver(msg)
-		reload_plugins(true)
-		post_msg(receiver, "Reloaded!", ok_cb, false)
-		return "Reloaded!"
+if matches[1] == 'refresh' then receiver = get_receiver(msg) reload_plugins(true) post_msg(receiver, "<code>🔁Bot Refreshed\nAll Of Things Has Been Saved</code>", ok_cb, false)
+return ""
 	end
 	--[[*For Debug*
 	if matches[1] == "vardumpmsg" and is_admin1(msg) then
